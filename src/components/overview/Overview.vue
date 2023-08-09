@@ -1,10 +1,12 @@
 <template>
-  <div class="detailed-information">detailed-information</div>
+  <div class="overview">
+    OverView
+  </div>
 </template>
 
 <script>
 export default {
-  name: "DetailedInformation",
+  name: "OverView",
   props: {
     // msg: String
   },
@@ -12,4 +14,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+</style>

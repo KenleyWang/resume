@@ -1,20 +1,27 @@
 <template>
-  <div class="main-com">
-    <MainBody></MainBody>
-    <DetailedInformation></DetailedInformation>
+  <div class="k-section">
+    <Overview></Overview>
+  </div>
+  <div class="k-section">
+    <Details></Details>
   </div>
 </template>
 
 <script>
-import MainBody from './MainBody.vue'
-import DetailedInformation from './DetailedInformation.vue'
+import Overview from './overview'
+import Details from './details'
 export default {
-  name: "MainCom",
+  name: "MainComponent",
   components: {
-    MainBody,
-    DetailedInformation
+    Overview,
+    Details
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.k-section {
+  height: 100vh;
+  width: 100vw;
+}
+</style>
