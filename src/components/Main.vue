@@ -5,6 +5,7 @@
   <div class="k-section">
     <Details></Details>
   </div>
+  <router-view name="NotFound"></router-view>
 </template>
 
 <script>
@@ -16,6 +17,9 @@ export default {
     Overview,
     Details
   },
+  mounted() {
+    console.log(this.$router)
+  }
 };
 </script>
 
