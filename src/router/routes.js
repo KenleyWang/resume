@@ -19,7 +19,7 @@ const routes = [
   {
     name: '404',
     path: '/404',
-    components: {NotFound:NotFound}
+    components: {404:NotFound}
   },
   {
     path: '/:catchAll()',    // 此处需特别注意至于最底部

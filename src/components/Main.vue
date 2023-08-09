@@ -5,7 +5,7 @@
   <div class="k-section">
     <Details></Details>
   </div>
-  <router-view name="NotFound"></router-view>
+  <router-view name="404"></router-view>
 </template>
 
 <script>
