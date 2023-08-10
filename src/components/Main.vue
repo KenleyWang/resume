@@ -12,7 +12,7 @@
 import Overview from './overview'
 import Details from './details'
 export default {
-  name: "MainComponent",
+  name: 'MainComponent',
   components: {
     Overview,
     Details
@@ -20,7 +20,7 @@ export default {
   mounted() {
     console.log(this.$router)
   }
-};
+}
 </script>
 
 <style scoped>
